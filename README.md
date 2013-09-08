@@ -1,7 +1,7 @@
 PlainText
 =
 
-[![Build Status](https://travis-ci.org/Commentar/PlainText.png?branch=master)](https://travis-ci.org/Commentar/PlainText) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Commentar/PlainText/badges/quality-score.png?s=e9a551f7f53423cdebc33dc530a6e89cb6ba58a1)](https://scrutinizer-ci.com/g/Commentar/PlainText/) [![Code Coverage](https://scrutinizer-ci.com/g/Commentar/PlainText/badges/coverage.png?s=822bbb46c79b752d4bfe94734c24ea4ca5da619f)](https://scrutinizer-ci.com/g/Commentar/PlainText/) [![Latest Stable Version](https://poser.pugx.org/Commentar/plain-text/v/stable.png)](https://packagist.org/packages/Commentar/plain-text) [![Total Downloads](https://poser.pugx.org/Commentar/plain-text/downloads.png)](https://packagist.org/packages/Commentar/plain-text)
+[![Build Status](https://travis-ci.org/Commentar/PlainText.png?branch=master)](https://travis-ci.org/Commentar/PlainText) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Commentar/PlainText/badges/quality-score.png?s=6967b8d784480858ab1d43c843c0b6f93b458640)](https://scrutinizer-ci.com/g/Commentar/PlainText/) [![Code Coverage](https://scrutinizer-ci.com/g/Commentar/PlainText/badges/coverage.png?s=ce21df878423aca4a002985a3320cb30f74d4678)](https://scrutinizer-ci.com/g/Commentar/PlainText/) [![Latest Stable Version](https://poser.pugx.org/Commentar/plain-text/v/stable.png)](https://packagist.org/packages/Commentar/plain-text) [![Total Downloads](https://poser.pugx.org/Commentar/plain-text/downloads.png)](https://packagist.org/packages/Commentar/plain-text)
 
 Plain text post formatter for the [Commentar][commentar] project.
 
