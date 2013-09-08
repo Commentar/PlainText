@@ -1,0 +1,21 @@
+{
+    "name": "commentar/plain-text",
+    "description": "Plain text post formatter",
+    "keywords": ["comments", "commentar", "plaintext", "post", "formatter"],
+    "homepage": "https://github.com/Commentar/PlainText",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Hordijk",
+            "email": "info@pieterhordijk.com",
+            "homepage": "https://pieterhordijk.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {"Commentar\\": "src/"}
+    }
+}
