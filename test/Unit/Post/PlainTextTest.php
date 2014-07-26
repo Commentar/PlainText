@@ -61,4 +61,56 @@ class PlainTextTest extends \PHPUnit_Framework_TestCase
 
         $this->assertSame($formatted, $formatter->parse($original));
     }
+
+    /**
+     * @covers Commentar\Post\PlainText::parse
+     */
+    public function testParseLinebreaksUnix()
+    {
+        $formatter = new PlainText();
+
+        $original  = "Foo\nBar";
+        $formatted = "Foo<br>\nBar";
+
+        $this->assertSame($formatted, $formatter->parse($original));
+    }
+
+    /**
+     * @covers Commentar\Post\PlainText::parse
+     */
+    public function testParseLinebreaksAncientMacs()
+    {
+        $formatter = new PlainText();
+
+        $original  = "Foo\rBar";
+        $formatted = "Foo<br>\rBar";
+
+        $this->assertSame($formatted, $formatter->parse($original));
+    }
+
+    /**
+     * @covers Commentar\Post\PlainText::parse
+     */
+    public function testParseLinebreaksWindows()
+    {
+        $formatter = new PlainText();
+
+        $original  = "Foo\r\nBar";
+        $formatted = "Foo<br>\r\nBar";
+
+        $this->assertSame($formatted, $formatter->parse($original));
+    }
+
+    /**
+     * @covers Commentar\Post\PlainText::parse
+     */
+    public function testParseLinebreaksOnlyGodKnowsWhatUsesThis()
+    {
+        $formatter = new PlainText();
+
+        $original  = "Foo\n\rBar";
+        $formatted = "Foo<br>\n\rBar";
+
+        $this->assertSame($formatted, $formatter->parse($original));
+    }
 }

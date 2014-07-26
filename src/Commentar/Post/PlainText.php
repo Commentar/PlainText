@@ -31,6 +31,6 @@ class PlainText implements Format
      */
     public function parse($content)
     {
-        return htmlspecialchars($content, ENT_QUOTES | ENT_HTML5 | ENT_SUBSTITUTE, 'UTF-8');
+        return nl2br(htmlspecialchars($content, ENT_QUOTES | ENT_HTML5 | ENT_SUBSTITUTE, 'UTF-8'), false);
     }
 }
